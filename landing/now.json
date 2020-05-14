@@ -11,5 +11,7 @@
   "github": {
     "enabled": false,
     "autoAlias": false
-  }
+  },
+  "regions": ["iad1"],
+  "build": { "env": { "FORCE_BUILD_IN_REGION": "iad1", "NOW_DEBUG": "1" } }
 }
